@@ -28,34 +28,37 @@ rand = "0.8"  # Check for the latest version at https://crates.io/crates/rand
 
 ### Installation
 Navigate to the Project Directory:
-
-
 cd number-guessing-game
+
 Install Dependencies:
 
 Run the following command to install the required dependencies:
 
-cargo build
-Execution
+**cargo build**
+
+### Execution
 Run the Application:
 
 Execute the following command to start the game:
 
-cargo run
+**cargo run**
 
-Gameplay:
+### Gameplay:
 
 The program will prompt you to enter a guess.
 Input your guess and press Enter.
 The program will provide feedback on whether your guess is too high, too low, or correct.
 Continue guessing until you correctly identify the secret number.
-Code Structure
+
+### Code Structure
 main.rs: Contains the primary logic of the game, including the input, game, and main functions.
 input Function: Handles user input and checks the guess against the secret number.
 game Function: Compares the user's guess with the secret number and provides feedback.
 main Function: Initializes the secret number and starts the game.
-Contributing
-If you would like to contribute to this project, please follow these steps:
+
+### Contributing
+
+**If you would like to contribute to this project, please follow these steps:**
 
 Fork the Repository: Create a personal copy of the repository on GitHub.
 Create a Branch: Develop your changes on a new branch.
